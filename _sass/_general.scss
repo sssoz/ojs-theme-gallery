@@ -1,0 +1,57 @@
+main {
+	margin-bottom: 3.25rem;
+}
+
+iframe {
+	max-width: 100%;
+	padding: 1rem;
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+}
+
+img {
+	max-width: 100%;
+}
+
+blockquote {
+	font-style: italic;
+}
+
+button {
+	cursor: pointer;
+	height: 35px;
+	padding: 0 1em;
+}
+
+ul {
+	list-style: none;
+	padding-left: 0;
+
+	ul, ol {
+		padding-left: 1em;
+	}
+}
+
+table {
+	margin-bottom: 2em;
+	text-align: left;
+	width: 100%;
+
+	th {
+		font-weight: 400;
+	}
+
+	th, td {
+		padding: 0.5em 0.15em;
+	}
+}
+
+hr {
+	border: 0;
+	max-width: 100%;
+	box-sizing: border-box;
+	height: 5px;
+	margin: 3em 0;
+	background-size: 5px 5px;
+	width: 33%;
+}

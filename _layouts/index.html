@@ -1,0 +1,72 @@
+<!doctype html>
+<html class="no-js" lang="en">
+
+{% include head.html %}
+
+<body>
+	<!--[if IE]>
+	<p class="browserupgrade">You are using an outdated browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+	<![endif]-->
+
+	<header>
+		<div class="container">
+			<h1 class="sr-only">PKP</h1>
+      {% include logotype.svg %}
+		</div>
+	</header>
+
+	<main>
+    <header>
+      <div class="container">
+        <div class="row">
+          <div class="col-2">
+            <h2>Tailor your journal’s website with a theme.</h2>
+            <p>Select an official OJS 3 theme. All themes offer some customisation options. Displaying your articles bla bla bla better + personalised design helps increase credibility, reputation, etc. etc. Themes compatible with OJS 3.X.X+.</p>
+            <p><a href="#">Contact us</a></p>
+          </div>
+        </div>
+      </div>
+    </header>
+
+		<section class="container">
+			<div class="row">
+        {% for theme in site.data.themes.official %}
+        <article class="col-1">
+          <h3>{{ theme.name }}</h3>
+          <a href="{{ theme.url }}" target="_blank" title="Go to the {{ theme.name }} theme demo site"><img src="img/{{ theme.img }}" alt="Screenshot of the {{ theme.name }} theme homepage"/></a>
+          <p>
+            &rarr; <a href="{{ theme.url }}/issue/current" target="_blank" title="Go to an issue example">Issue example</a><br/>
+            &rarr; <a href="{{ theme.article_url }}" target="_blank" title="Go to an article example">Article example</a><br/>
+            &rarr; <a href="{{ theme.pdf_url }}" target="_blank" title="Go to a PDF galley">PDF example</a>
+          </p>
+					<p>{{ theme.description }}</p>
+				</article>
+        {% endfor %}
+			</div>
+
+		</section>
+
+		<hr/>
+
+		<section class="container">
+      <h3>Bootstrap themes</h3>
+      <p>Basic themes using Bootstrap 3, a responsive front-end framework.</p>
+
+			<div class="row">
+        {% for theme in site.data.themes.bootstrap %}
+        <article class="col-1">
+          <h4>{{ theme.name }}</h4>
+          <a href="{{ theme.url }}" target="_blank" title="Go to the {{ theme.name }} theme demo site"><img src="img/{{ theme.img }}" alt="Screenshot of the {{ theme.name }} theme homepage"/></a>
+				</article>
+        {% endfor %}
+			</div>
+
+		</section>
+
+	</main>
+
+</body>
+
+{% include footer.html %}
+
+</html>

@@ -1,0 +1,56 @@
+/* Typescale in minor third */
+html {
+	font-family: $sans-serif;
+	font-size: 18px;
+	letter-spacing: 0.01em;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	line-height: 1.15;
+	margin: 2.75rem 0 1rem;
+}
+
+h1 {
+	font-size: 2.488em;
+}
+
+h2 {
+	font-size: 2.074em;
+}
+
+h3 {
+	font-size: 1.728em;
+}
+
+h4 {
+	font-size: 1.44em;
+
+	&:before {
+		content: '— ';
+	}
+}
+
+h5 {
+	font-size: 1.2em;
+}
+
+h6, small, table {
+	font-size: 0.833em;
+}
+
+p {
+	margin-top: 0;
+	margin-bottom: 1.25em;
+}
+
+p, li {
+	line-height: 1.35;
+}
+
+pre, code {
+	font-family: $monospace;
+	letter-spacing: -0.035em;
+	font-size: 0.85em;
+}

@@ -1,0 +1,65 @@
+// Basic colour palette.
+// DO NOT use variables as is
+// Use semantic variables instead
+
+// Greyscale
+$black: 					hsl(30, 5%, 15%);
+$white: 					hsl(30, 75%, 98%);
+
+// Multichromatic
+$pine:	       		hsl(180, 100%, 21%);
+$teal: 						hsl(179, 67%, 37%);
+$sanguine: 	    	hsl(15, 88%, 32%);
+$grapefruit: 	  	hsl(10, 98%, 61%);
+
+// Accessible colour combinations for `color` & `background-color`
+// when used with the multichromatic palette
+@mixin black-bg($theme-colour) {
+	background-color: $black;
+	color: $tint;
+}
+
+@mixin white-bg($theme-colour) {
+	background-color: $white;
+	color: $shade;
+}
+
+@mixin dark-hue-bg($theme-colour) {
+	background-color: $shade;
+	color: $white;
+}
+
+@mixin light-hue-bg() {
+	background-color: $tint;
+	color: $black;
+}
+
+.black-fill {
+	fill: $black;
+	stroke: $black;
+}
+
+.white-fill {
+	fill: $white;
+	stroke: $black;
+}
+
+.pine-fill {
+	fill: $pine;
+	stroke: $pine;
+}
+
+.teal-fill {
+	fill: $teal;
+	stroke: $teal;
+}
+
+.sanguine-fill {
+	fill: $sanguine;
+	stroke: $sanguine;
+}
+
+.grapefruit-fill {
+	fill: $grapefruit;
+	stroke: $grapefruit;
+}

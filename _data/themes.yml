@@ -1,0 +1,69 @@
+# List of themes
+official:
+- name: Default
+  url: "https://demo.publicknowledgeproject.org/ojs3/demo/index.php/demojournal"
+  article_url: "https://demo.publicknowledgeproject.org/ojs3/demo/index.php/demojournal/article/view/9"
+  pdf_url: "https://demo.publicknowledgeproject.org/ojs3/demo/index.php/demojournal/article/view/9/15"
+  description: "The default, out-of-the-box OJS 3 theme."
+  img: default-homepage.png
+
+- name: Manuscript
+  url: "https://demo.publicknowledgeproject.org/ojs3/demo/index.php/manuscript"
+  article_url: "https://demo.publicknowledgeproject.org/ojs3/demo/index.php/manuscript/article/view/813"
+  pdf_url: "https://demo.publicknowledgeproject.org/ojs3/demo/index.php/manuscript/article/view/813/348"
+  description: "A clean, simple theme with a boxed layout that mimics a paper document."
+  img: manuscript-homepage.png
+
+- name: Health Sciences
+  url: "https://demo.publicknowledgeproject.org/ojs3/demo/index.php/health-sciences"
+  article_url: "https://demo.publicknowledgeproject.org/ojs3/demo/index.php/health-sciences/article/view/712"
+  pdf_url: "https://demo.publicknowledgeproject.org/ojs3/demo/index.php/health-sciences/article/view/712/174"
+  description: "A modern theme focussed on text legibility featuring an understated palette of light greys and white and a large, single-column table of contents."
+  img: health-homepage.png
+
+- name: Pragma
+  url: "https://demo.publicknowledgeproject.org/ojs3/demo/index.php/pragma"
+  article_url: "https://demo.publicknowledgeproject.org/ojs3/demo/index.php/pragma/article/view/980"
+  pdf_url: "https://demo.publicknowledgeproject.org/ojs3/demo/index.php/pragma/article/view/980/518"
+  description: "A minimalist theme inspired by early paper periodicals’ tables of contents, with a customisable single-colour palette and an embedded PDF galley."
+  img: pragma-homepage.png
+
+- name: Classic
+  url: "https://demo.publicknowledgeproject.org/ojs3/demo/index.php/classic"
+  article_url: "https://demo.publicknowledgeproject.org/ojs3/demo/index.php/classic/article/view/822"
+  pdf_url: "https://demo.publicknowledgeproject.org/ojs3/demo/index.php/classic/article/view/822/360"
+  description: "A theme inspired by literary classics that plays on font and colour contrasts, featuring a black header, a brand-coloured footer, and a compact, three-column table of contents."
+  img: classic-homepage.png
+
+- name: Immersion
+  url: "https://demo.publicknowledgeproject.org/ojs3/demo/index.php/immersion"
+  article_url: "https://demo.publicknowledgeproject.org/ojs3/demo/index.php/immersion/article/view/921"
+  pdf_url: "https://demo.publicknowledgeproject.org/ojs3/demo/index.php/immersion/article/view/921/458"
+  description: "A magazine-like theme with full-page images, large text, and customisable colour blocks tailored for journals with a focus on visuals."
+  img: immersion-homepage.png
+
+# Bootstrap themes
+bootstrap:
+- name: Default
+  url: "https://demo.publicknowledgeproject.org/ojs3/demo/index.php/boot1"
+  img: bootstrap-homepage.png
+
+- name: Paper
+  url: "https://demo.publicknowledgeproject.org/ojs3/demo/index.php/boot2"
+  img: bootstrap-paper-homepage.png
+
+- name: Journal
+  url: "https://demo.publicknowledgeproject.org/ojs3/demo/index.php/boot3"
+  img: bootstrap-journal-homepage.png
+
+- name: Yeti
+  url: "https://demo.publicknowledgeproject.org/ojs3/demo/index.php/boot5"
+  img: bootstrap-yeti-homepage.png
+
+- name: Sandstone
+  url: "https://demo.publicknowledgeproject.org/ojs3/demo/index.php/boot6"
+  img: bootstrap-sandstone-homepage.png
+
+- name: Cyborg
+  url: "https://demo.publicknowledgeproject.org/ojs3/demo/index.php/boot4"
+  img: bootstrap-cyborg-homepage.png
