@@ -89,8 +89,3 @@ html {
 		padding-right: 5vw;
 	}
 }
-
-/* For testing */
-.col-1, .col-2 {
-	outline: 1px solid red;
-}

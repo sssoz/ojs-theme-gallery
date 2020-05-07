@@ -3,18 +3,18 @@
 
 <head>
 	<meta charset="utf-8">
-	<title>Three-column grid</title>
+	<title>OJS theme gallery</title>
 	<meta name="description" content="">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
 	<link rel="manifest" href="site.webmanifest">
 	<link rel="apple-touch-icon" href="icon.png">
 
-	<link rel="stylesheet" href="css/normalize.css">
+		<link rel="stylesheet" href="css/normalize.css">
 
-	<link rel="stylesheet" href="css/grid.css">
-	<!-- <link rel="stylesheet" href="css/typography.css"> -->
-	<!-- <link rel="stylesheet" href="css/main.css"> -->
+		<link rel="stylesheet" href="css/grid.css">
+		<link rel="stylesheet" href="css/typography.css">
+		<link rel="stylesheet" href="css/general.css">
 
 	<meta name="theme-color" content="#282624">
 </head>
@@ -26,26 +26,122 @@
 
 	<header>
 		<div class="container">
-			<p>This is the header.</p>
-			<p>This is the header’s nav.</p>
+			<h1>PKP</h1>
 		</div>
 	</header>
 
 	<main class="container">
-		<h1>Three-column grid</h1>
-		<p>
-			<a href="with-sidebar.html">With a sidebar</a>
-		</p>
-		<p>
-			<a href="without-sidebar.html">Without a sidebar</a>
-		</p>
+    <div class="row">
+      <header class="col-2">
+        <h2>Tailor your journal’s website with a theme.</h2>
+        <p>Select an official OJS 3 theme. All themes offer some customisation options. Displaying your articles bla bla bla better + personalised design helps increase credibility, reputation, etc. etc. Themes compatible with OJS 3.X.X+.</p>
+        <p><a href="#">Contact us</a></p>
+      </header>
+    </div>
+
+    <hr/>
+
+		<section>
+			<div class="row">
+				<article class="col-1">
+          <h3>Default</h3>
+          <img src="img/default-homepage.png" style="max-width: 100%;"/>
+					<p>
+						The default, out-of-the-box OJS 3 theme.
+					</p>
+				</article>
+
+        <article class="col-1">
+          <h3>Manuscript</h3>
+          <img src="img/manuscript-homepage.png" style="max-width: 100%;"/>
+					<p>
+            A clean, simple theme with a boxed layout that mimics a paper document.
+					</p>
+				</article>
+
+        <article class="col-1">
+          <h3>Health Sciences</h3>
+          <img src="img/health-homepage.png" style="max-width: 100%;"/>
+					<p>
+            A modern theme focussed on digital text legibility featuring an understated palette of light greys and white and a large, single-column table of contents.
+					</p>
+				</article>
+
+        <article class="col-1">
+          <h3>Pragma</h3>
+          <img src="img/pragma-homepage.png" style="max-width: 100%;"/>
+					<p>
+            A minimalist theme inspired by early periodicals’ tables of contents, with a customisable single-colour palette and an embedded PDF galley.
+					</p>
+				</article>
+
+        <article class="col-1">
+          <h3>Classic</h3>
+          <img src="img/classic-homepage.png" style="max-width: 100%;"/>
+					<p>
+            A theme inspired by literary classics that plays on font and colour contrasts, featuring a black header, a brand-coloured footer, and a compact, three-column table of contents.
+					</p>
+				</article>
+
+        <article class="col-1">
+          <h3>Immersion</h3>
+          <img src="img/immersion-homepage.png" style="max-width: 100%;"/>
+          <p>
+            A magazine-like theme with full-page images, large text, and customisable colour blocks tailored for journals with a focus on visuals.
+          </p>
+        </article>
+			</div>
+
+		</section>
+
+		<hr/>
+
+		<section>
+      <h3>Bootstrap themes</h3>
+      <p>Basic themes using Bootstrap 3, a responsive front-end framework.</p>
+
+			<div class="row">
+        <div class="col-1">
+          <h4>Default</h4>
+					<p></p>
+				</div>
+
+        <div class="col-1">
+          <h4>Paper</h4>
+					<p></p>
+				</div>
+
+        <div class="col-1">
+          <h4>Journal</h4>
+					<p></p>
+				</div>
+
+        <div class="col-1">
+          <h4>Yeti</h4>
+					<p></p>
+				</div>
+
+        <div class="col-1">
+          <h4>Sandstone</h4>
+					<p></p>
+				</div>
+
+        <div class="col-1">
+          <h4>Cyborg</h4>
+					<p></p>
+				</div>
+			</div>
+		</section>
+
 	</main>
 
 	<footer>
-		<div class="container">
-			<p>This is the footer! We put credits & copyright & stuff here. The end.</p>
-			<p>Little bit of info. </p>
-		</div>
+    <div class="container">
+  		<div class="row">
+        <p class="col-1">Making <br/>knowledge <br/>public.</p>
+  			<p class="col-2" style="text-align: right;">© 2020 Public Knowledge Project <br/><a href="https://pkp.sfu.ca" target="_blank">pkp.sfu.ca</a></p>
+  		</div>
+    </div>
 	</footer>
 
 </body>

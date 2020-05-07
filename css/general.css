@@ -1,0 +1,46 @@
+html {
+	font-size: 18px;
+}
+
+body {
+	color: #282624;
+}
+
+main {
+	margin-top: 3.25rem;
+	margin-bottom: 3.25rem;
+}
+
+article {
+  padding-right: 3rem;
+}
+
+footer {
+  padding: 2rem 0;
+	background-color: #282624;
+	color: #FFF;
+}
+
+footer p {
+  margin: 0;
+}
+
+ul, ol {
+	list-style: none;
+	padding-left: 0;
+}
+
+a {
+  color: #282624;
+}
+
+p {
+  margin-bottom: 2em;
+}
+
+hr {
+  margin-bottom: 2rem;
+  border: 0;
+  height: 2px;
+  background-color: #282624;
+}

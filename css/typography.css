@@ -1,11 +1,11 @@
 html {
-	font-size: 18px;
+	font-size: 16px;
 }
 
 body {
-	font-family: 'Source Sans Pro', sans-serif;
-	letter-spacing: 0.01em;
-	line-height: 1.25;
+	font-family: 'Inter', sans-serif;
+  letter-spacing: -0.015em;
+	line-height: 1.15;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 }
@@ -13,9 +13,8 @@ body {
 /* Typescale in minor third */
 h1, h2, h3, h4, h5, h6 {
 	margin: 2.75rem 0 1rem;
-	font-family: 'Spectral', serif;
 	letter-spacing: -0.03em;
-	font-weight: 600;
+	font-weight: normal;
 	line-height: 1.15;
 }
 
@@ -29,10 +28,12 @@ h6:first-of-type {
 }
 
 h1 {
+  margin: 0;
 	font-size: 2.488em;
 }
 
 h2 {
+  margin-bottom: 3rem;
 	font-size: 2.074em;
 }
 
@@ -55,4 +56,5 @@ h6, small {
 p {
 	margin-top: 0;
 	margin-bottom: 1.25em;
+  line-height: 1.45;
 }
