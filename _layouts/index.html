@@ -58,7 +58,9 @@
         {% for theme in site.data.themes.bootstrap %}
         <article class="col-1">
           <h4>{{ theme.name }}</h4>
-          <a href="{{ theme.url }}" target="_blank" title="Go to the {{ theme.name }} theme demo site"><img src="img/{{ theme.img }}" alt="Screenshot of the {{ theme.name }} theme homepage"/></a>
+          <a href="{{ theme.url }}" target="_blank" title="Go to the {{ theme.name }} theme demo site" class="preview" data-preview="Try the theme demo">
+            <img src="img/{{ theme.img }}" class="preview__img" alt="Screenshot of the {{ theme.name }} theme homepage"/>
+          </a>
 				</article>
         {% endfor %}
 			</div>
