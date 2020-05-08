@@ -47,7 +47,6 @@ p, img {
 
 img {
   max-width: 100%;
-  border: 1px solid hsl(36, 7%, 14%);
 }
 
 hr {
@@ -103,4 +102,33 @@ main > header a {
 .tagline {
   line-height: 0.95;
   font-size: 1.5rem;
+}
+
+.preview {
+  margin: 0 0 2rem 0;
+  display: block;
+  overflow: hidden;
+  height: 175px;
+  width: auto;
+  background: hsl(40, 91%, 53%);
+  border: 1px solid hsl(36, 7%, 14%);
+  text-decoration: none;
+}
+
+.preview:hover {
+  border-color: hsl(40, 91%, 53%);
+}
+
+.preview:hover .preview__img{
+  margin-top: -400px;
+  -webkit-transition: all 1s;
+  -moz-transition: all 1s;
+  transition: all 1s;
+}
+
+.preview:hover:after {
+  display: block;
+  margin-top: 3rem;
+  content: attr(data-preview);
+  text-align: center;
 }
