@@ -1,0 +1,103 @@
+/* Range slider */
+input[type=range] {
+  margin: 10px 0;
+  -webkit-appearance: none;
+  height: 5px;
+  width: 150px;
+  background: transparent;
+}
+
+input[type=range]:focus {
+  outline: none;
+}
+
+input[type=range]::-webkit-slider-runnable-track {
+  width: 100%;
+  height: 5px;
+  cursor: pointer;
+  animate: 0.2s;
+  box-shadow: 0px 0px 0px #FFF;
+  background: #FFF;
+  border-radius: 0px;
+  border: 0px solid #FFF;
+}
+
+input[type=range]::-webkit-slider-thumb {
+  box-shadow: 0px 0px 0px hsl(40, 91%, 53%);
+  border: 1px solid hsl(40, 91%, 53%);
+  height: 20px;
+  width: 20px;
+  border-radius: 10px;
+  background: hsl(40, 91%, 53%);
+  cursor: pointer;
+  -webkit-appearance: none;
+  margin-top: -7px;
+}
+
+input[type=range]:focus::-webkit-slider-runnable-track {
+  background: #FFF;
+}
+
+input[type=range]::-moz-range-track {
+  width: 100%;
+  height: 5px;
+  cursor: pointer;
+  animate: 0.2s;
+  box-shadow: 0px 0px 0px #FFF;
+  background: #FFF;
+  border-radius: 0px;
+  border: 0px solid #FFF;
+}
+
+input[type=range]::-moz-range-thumb {
+  box-shadow: 0px 0px 0px hsl(40, 91%, 53%);
+  border: 1px solid hsl(40, 91%, 53%);
+  height: 20px;
+  width: 20px;
+  border-radius: 10px;
+  background: hsl(40, 91%, 53%);
+  cursor: pointer;
+}
+
+input[type=range]::-ms-track {
+  width: 100%;
+  height: 5px;
+  cursor: pointer;
+  animate: 0.2s;
+  background: transparent;
+  border-color: transparent;
+  color: transparent;
+}
+
+input[type=range]::-ms-fill-lower {
+  background: #FFF;
+  border: 0px solid #FFF;
+  border-radius: 0px;
+  box-shadow: 0px 0px 0px #FFF;
+}
+
+input[type=range]::-ms-fill-upper {
+  background: #FFF;
+  border: 0px solid #FFF;
+  border-radius: 0px;
+  box-shadow: 0px 0px 0px #FFF;
+}
+
+input[type=range]::-ms-thumb {
+  margin-top: 1px;
+  box-shadow: 0px 0px 0px hsl(40, 91%, 53%);
+  border: 1px solid hsl(40, 91%, 53%);
+  height: 20px;
+  width: 20px;
+  border-radius: 10px;
+  background: hsl(40, 91%, 53%);
+  cursor: pointer;
+}
+
+input[type=range]:focus::-ms-fill-lower {
+  background: #FFF;
+}
+
+input[type=range]:focus::-ms-fill-upper {
+  background: #FFF;
+}
