@@ -77,6 +77,10 @@ main > header {
   padding-top: 3rem;
   background-color: hsl(211, 100%, 14%);
   color: #FFF;
+
+  h1, h2, h3, h4, h5, h6 {
+    @include serif;
+  }
 }
 
 main > header a {
