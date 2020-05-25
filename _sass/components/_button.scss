@@ -1,4 +1,5 @@
 /* Buttons */
+
 button,
 input[type="button"],
 .button {
@@ -13,7 +14,7 @@ input[type="button"],
 }
 
 .button--is-cta {
-  border: 1px solid hsl(40, 91%, 53%) !important;
-  background-color: hsl(40, 91%, 53%);
-  color: hsl(36, 7%, 14%) !important;
+  border: 1px solid $buttercup-yellow !important;
+  background-color: $buttercup-yellow;
+  color: $almost-black !important;
 }

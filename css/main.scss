@@ -5,11 +5,19 @@
 
 // Import partials
 @import
-  "normalize",
-  "grid",
-	"fonts",
-	"general",
-  "logo",
-  "range",
-	"typography",
-  "button";
+  "vendors/normalize",
+
+  "base/fonts",
+  "base/colours",
+  "base/general",
+  "base/grid",
+  "base/typography",
+
+  "components/button",
+  "components/logo",
+  "components/preview",
+  "components/range-slider",
+  "components/sr-only",
+
+  "themes/dark-mode"
+;

@@ -16,26 +16,26 @@ input[type=range]::-webkit-slider-runnable-track {
   height: 5px;
   cursor: pointer;
   animate: 0.2s;
-  box-shadow: 0px 0px 0px #FFF;
-  background: #FFF;
+  box-shadow: 0px 0px 0px $white;
+  background: $white;
   border-radius: 0px;
-  border: 0px solid #FFF;
+  border: 0px solid $white;
 }
 
 input[type=range]::-webkit-slider-thumb {
-  box-shadow: 0px 0px 0px hsl(40, 91%, 53%);
-  border: 1px solid hsl(40, 91%, 53%);
+  box-shadow: 0px 0px 0px $buttercup-yellow;
+  border: 1px solid $buttercup-yellow;
   height: 20px;
   width: 20px;
   border-radius: 10px;
-  background: hsl(40, 91%, 53%);
+  background: $buttercup-yellow;
   cursor: pointer;
   -webkit-appearance: none;
   margin-top: -7px;
 }
 
 input[type=range]:focus::-webkit-slider-runnable-track {
-  background: #FFF;
+  background: $white;
 }
 
 input[type=range]::-moz-range-track {
@@ -43,19 +43,19 @@ input[type=range]::-moz-range-track {
   height: 5px;
   cursor: pointer;
   animate: 0.2s;
-  box-shadow: 0px 0px 0px #FFF;
-  background: #FFF;
+  box-shadow: 0px 0px 0px $white;
+  background: $white;
   border-radius: 0px;
-  border: 0px solid #FFF;
+  border: 0px solid $white;
 }
 
 input[type=range]::-moz-range-thumb {
-  box-shadow: 0px 0px 0px hsl(40, 91%, 53%);
-  border: 1px solid hsl(40, 91%, 53%);
+  box-shadow: 0px 0px 0px $buttercup-yellow;
+  border: 1px solid $buttercup-yellow;
   height: 20px;
   width: 20px;
   border-radius: 10px;
-  background: hsl(40, 91%, 53%);
+  background: $buttercup-yellow;
   cursor: pointer;
 }
 
@@ -70,34 +70,34 @@ input[type=range]::-ms-track {
 }
 
 input[type=range]::-ms-fill-lower {
-  background: #FFF;
-  border: 0px solid #FFF;
+  background: $white;
+  border: 0px solid $white;
   border-radius: 0px;
-  box-shadow: 0px 0px 0px #FFF;
+  box-shadow: 0px 0px 0px $white;
 }
 
 input[type=range]::-ms-fill-upper {
-  background: #FFF;
-  border: 0px solid #FFF;
+  background: $white;
+  border: 0px solid $white;
   border-radius: 0px;
-  box-shadow: 0px 0px 0px #FFF;
+  box-shadow: 0px 0px 0px $white;
 }
 
 input[type=range]::-ms-thumb {
   margin-top: 1px;
-  box-shadow: 0px 0px 0px hsl(40, 91%, 53%);
-  border: 1px solid hsl(40, 91%, 53%);
+  box-shadow: 0px 0px 0px $buttercup-yellow;
+  border: 1px solid $buttercup-yellow;
   height: 20px;
   width: 20px;
   border-radius: 10px;
-  background: hsl(40, 91%, 53%);
+  background: $buttercup-yellow;
   cursor: pointer;
 }
 
 input[type=range]:focus::-ms-fill-lower {
-  background: #FFF;
+  background: $white;
 }
 
 input[type=range]:focus::-ms-fill-upper {
-  background: #FFF;
+  background: $white;
 }

@@ -18,7 +18,9 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: OJS theme gallery &ndash; PKP
+title: "Themes for OJS 3"
+tagline: "A theme for every journal."
+description: "Find a theme that suits your journal’s disciplinary and scholarly priorities. Customise the colours, add your own logo, or <a href='https://docs.pkp.sfu.ca/pkp-theming-guide/en/' target='_blank'>build your own theme</a>."
 
 # Build settings
 markdown: kramdown

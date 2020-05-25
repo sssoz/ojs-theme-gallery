@@ -3,12 +3,12 @@
 $serif: 			'Aleo', serif;
 $sans-serif: 	'Inter', sans-serif;
 
-@mixin sans() {
+@mixin sans {
 	font-family: $sans-serif;
 	letter-spacing: -0.01em;
 }
 
-@mixin serif() {
+@mixin serif {
 	font-family: $serif;
 	letter-spacing: 0.01em;
 }
