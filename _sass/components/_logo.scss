@@ -1,19 +1,16 @@
 /* Main PKP logo */
 
 .logo {
-  display: inline-block;
-  margin: 0 0 1rem 1rem;
-  padding: 3rem;
-
   svg {
-    display: block;
-    max-width: 100%;
-    height: 100px;
+    display: inline-block;
+    vertical-align: middle;
+    padding-right: $spacing-04;
+    margin: 10px 0;
+    height: 40px;
     width: auto;
-  }
 
-  path {
-    fill: #282624;
-    stroke: #282624;
+    path {
+      fill: $white;
+    }
   }
 }

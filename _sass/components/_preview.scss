@@ -1,19 +1,19 @@
 /* Clickable screen preview */
 
 .preview {
-  margin: 0 0 2rem 0;
   display: block;
+  margin-bottom: $spacing-04;
   overflow: hidden;
   height: 175px;
   width: auto;
   background: $almost-black;
-  border: 1px solid $almost-black;
+  border: 1px solid $coal;
   text-decoration: none;
 
   &:hover {
-    border-color: $almost-black;
+    border-color: $coal;
 
-    .preview__img{
+    .preview__img {
       margin-top: -400px;
       -webkit-transition: all 400ms;
       -moz-transition: all 400ms;
@@ -22,7 +22,7 @@
 
     &:after {
       display: block;
-      margin-top: 3rem;
+      margin-top: $spacing-06;
       content: attr(data-preview);
       text-align: center;
       font-weight: 600;

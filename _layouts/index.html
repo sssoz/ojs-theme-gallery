@@ -8,10 +8,10 @@
 	<p class="browserupgrade">You are using an outdated browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
 	<![endif]-->
 
-	<header>
+	<header class="site-header">
 		<div class="container">
 			<h1>
-        <a href="https://pkp.sfu.ca" target="_blank" rel="noopener">
+        <a href="https://pkp.sfu.ca" target="_blank" rel="noopener" class="logo">
           {% include logotype.svg %}
           <span class="sr-only">{{ site.title }}</span>
         </a>
@@ -20,7 +20,7 @@
 	</header>
 
 	<main>
-    <header>
+    <header class="page-header">
       <div class="container">
         <div class="row">
           <div class="col-2">
@@ -28,7 +28,7 @@
             <h2>{{ site.tagline }}</h2>
             <p>{{ site.description }}</p>
             <p>
-              <a class="button button--is-cta" href="https://docs.pkp.sfu.ca/learning-ojs/en/settings-website#theme" target="_blank">Use a Theme</a>
+              <a class="button button--primary" href="https://docs.pkp.sfu.ca/learning-ojs/en/settings-website#theme" target="_blank">Use a Theme</a>
               <a class="button" href="https://pkp.sfu.ca/ojs/" target="_blank">Get OJS 3</a>
             </p>
           </div>
@@ -42,9 +42,9 @@
         {% for theme in site.data.themes.official %}
         <article class="col-1">
           <h3>{{ theme.name }}</h3>
-          <a href="{{ theme.url }}" target="_blank" title="Go to the {{ theme.name }} theme demo site" class="preview" data-preview="Try the theme demo">
-            <img src="img/{{ theme.img }}" class="preview__img" alt="Screenshot of the {{ theme.name }} theme homepage"/>
-          </a>
+            <a href="{{ theme.url }}" target="_blank" title="Go to the {{ theme.name }} theme demo site" class="preview" data-preview="Try the theme demo">
+              <img src="img/{{ theme.img }}" class="preview__img" alt="Screenshot of the {{ theme.name }} theme homepage"/>
+            </a>
           <p>
             &rarr; <a href="{{ theme.url }}/issue/current" target="_blank" title="Go to an issue example">Issue</a><br/>
             &rarr; <a href="{{ theme.article_url }}" target="_blank" title="Go to an article example">Article</a><br/>

@@ -3,18 +3,34 @@
 button,
 input[type="button"],
 .button {
+  display: inline-block;
+  padding: $spacing-03 $spacing-04;
+  transition: all 0.15s ease-in-out;
   cursor: pointer;
-  padding: 0.75rem 1rem;
   background-color: transparent;
-  border: 1px solid #282624;
+  border: 1px solid $almost-black;
   text-decoration: none;
-  color: #282624;
-  font-size: 0.85rem;
+  color: $almost-black;
+  font-size: $spacing-03;
   line-height: 1;
+
+  &:hover,
+  &:focus,
+  &:active {
+    background-color: $almost-black;
+    color: $white;
+  }
 }
 
-.button--is-cta {
-  border: 1px solid $buttercup-yellow !important;
-  background-color: $buttercup-yellow;
-  color: $almost-black !important;
+.button--primary {
+  background-color: $prussian-blue;
+  border-color: $prussian-blue;
+  color: $white;
+
+  &:hover,
+  &:focus,
+  &:active {
+    background-color: $buttercup-yellow;
+    color: $almost-black;
+  }
 }
