@@ -23,7 +23,7 @@
     <header class="main-header">
       <div class="container">
         <div class="row">
-          <div class="col-2">
+          <div class="col-md-6">
             <p class="main-header__title">{{ site.title }}</p>
             <h2>{{ site.tagline }}</h2>
             <p>{{ site.description }}</p>
@@ -40,7 +40,7 @@
       <h2 class="sr-only">Official themes</h2>
 			<div class="row">
         {% for theme in site.data.themes.official %}
-        <article class="col-1">
+        <article class="col-md-4">
           <h3>{{ theme.name }}</h3>
             <a href="{{ theme.url }}" target="_blank" title="Go to the {{ theme.name }} theme demo site" class="preview" data-preview="Try the theme demo">
               <img src="img/{{ theme.img }}" class="preview__img" alt="Screenshot of the {{ theme.name }} theme homepage"/>
@@ -65,7 +65,7 @@
 
 			<div class="row">
         {% for theme in site.data.themes.bootstrap %}
-        <article class="col-1">
+        <article class="col-md-4">
           <h4>{{ theme.name }}</h4>
           <a href="{{ theme.url }}" target="_blank" title="Go to the {{ theme.name }} theme demo site" class="preview" data-preview="Try the theme demo">
             <img src="img/{{ theme.img }}" class="preview__img" alt="Screenshot of the {{ theme.name }} theme homepage"/>
