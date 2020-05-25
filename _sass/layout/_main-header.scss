@@ -1,16 +1,25 @@
 /* "Hero"-type of page header */
 
 .main-header {
-  padding-top: $spacing-05;
-  padding-bottom: $spacing-05;
+  padding-top: $spacing-06;
+  padding-bottom: $spacing-06;
   background:
     linear-gradient(90deg, $prussian-blue 15px, transparent 1%) center,
     linear-gradient($prussian-blue 15px, transparent 1%) center, #465A74;
   background-size: 16px 16px;
   color: $white;
 
-  h1, h2, h3, h4, h5, h6 {
+  h2 {
+    margin-bottom: $spacing-06;
     @include serif;
+  }
+
+  p {
+    margin-bottom: $spacing-06;
+
+    &:last-of-type {
+      margin-bottom: 0;
+    }
   }
 
   a {
@@ -44,7 +53,7 @@
     &:focus,
     &:active {
       background-color: $prussian-blue;
-      border-color: $prussian-blue;
+      border-color: $buttercup-yellow;
       color: $buttercup-yellow;
     }
   }

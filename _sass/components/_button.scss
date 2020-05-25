@@ -31,6 +31,7 @@ input[type="button"],
   &:focus,
   &:active {
     background-color: $buttercup-yellow;
+    border-color: $buttercup-yellow;
     color: $almost-black;
   }
 }

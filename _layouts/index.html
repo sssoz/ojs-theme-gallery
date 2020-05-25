@@ -45,11 +45,11 @@
             <a href="{{ theme.url }}" target="_blank" title="Go to the {{ theme.name }} theme demo site" class="preview" data-preview="Try the theme demo">
               <img src="img/{{ theme.img }}" class="preview__img" alt="Screenshot of the {{ theme.name }} theme homepage"/>
             </a>
-          <p>
-            &rarr; <a href="{{ theme.url }}/issue/current" target="_blank" title="Go to an issue example">Issue</a><br/>
-            &rarr; <a href="{{ theme.article_url }}" target="_blank" title="Go to an article example">Article</a><br/>
-            &rarr; <a href="{{ theme.pdf_url }}" target="_blank" title="Go to a PDF galley">PDF viewer</a>
-          </p>
+          <ul>
+            <li><a href="{{ theme.url }}/issue/current" target="_blank" title="Go to an issue example">Issue</a></li>
+            <li><a href="{{ theme.article_url }}" target="_blank" title="Go to an article example">Article</a></li>
+            <li><a href="{{ theme.pdf_url }}" target="_blank" title="Go to a PDF galley">PDF viewer</a></li>
+          </ul>
 					<p>{{ theme.description }}</p>
 				</article>
         {% endfor %}
