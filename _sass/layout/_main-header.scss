@@ -57,4 +57,21 @@
       color: $buttercup-yellow;
     }
   }
+
+  .main-header__title {
+    display: table;
+    white-space: nowrap;
+    margin-bottom: $spacing-03;
+    @include serif;
+
+    &:after {
+      display: table-cell;
+      position: relative;
+      top: -$spacing-03;
+      left: $spacing-02;
+      width: $spacing-07;
+      content: ' ';
+      border-bottom: 2px solid $athens-blue;
+    }
+  }
 }
