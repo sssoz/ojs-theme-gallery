@@ -19,8 +19,8 @@
 # in the templates via {{ site.myvariable }}.
 
 title: "Themes for OJS 3"
-tagline: "A theme for every journal."
-description: "Find a theme that suits your journal’s disciplinary and scholarly priorities. Customise the colours, add your own logo, or <a href='https://docs.pkp.sfu.ca/pkp-theming-guide/en/' target='_blank'>build your own theme</a>."
+tagline: "Publish with personality."
+description: "PKP offers customizable themes for OJS 3. Browse our demo gallery for inspiration - then create a one-of-a-kind site with your choice of colour, images, and font."
 
 # Build settings
 markdown: kramdown

@@ -24,9 +24,9 @@
       <div class="container">
         <div class="row">
           <div class="col-md-6">
-            <p class="main-header__title">{{ site.title }}</p>
             <h2>{{ site.tagline }}</h2>
-            <p>{{ site.description }}</p>
+            <p>PKP offers customizable themes for <a href="http://pkp.sfu.ca/ojs" target="_blank" rel="noopener">OJS 3</a>. Browse our demo gallery for inspiration - then create a one-of-a-kind site with your choice of colour, images, and font.</p>
+            <p><a href="#">Learn More</a></p>
             <p>
               <a class="button button--primary" href="https://docs.pkp.sfu.ca/learning-ojs/en/settings-website#theme" target="_blank">Use a Theme</a>
               <a class="button" href="https://pkp.sfu.ca/ojs/" target="_blank">Get OJS 3</a>
@@ -42,7 +42,7 @@
         {% for theme in site.data.themes.official %}
         <article class="col-md-4">
           <h3>{{ theme.name }}</h3>
-            <a href="{{ theme.url }}" target="_blank" title="Go to the {{ theme.name }} theme demo site" class="preview" data-preview="Try the theme demo">
+            <a href="{{ theme.url }}" target="_blank" title="Go to the {{ theme.name }} theme demo site" class="preview" data-preview="View Demo">
               <img src="img/{{ theme.img }}" class="preview__img" alt="Screenshot of the {{ theme.name }} theme homepage"/>
             </a>
           <ul>
@@ -64,7 +64,7 @@
         {% for theme in site.data.themes.bootstrap %}
         <article class="col-md-4">
           <h4>{{ theme.name }}</h4>
-          <a href="{{ theme.url }}" target="_blank" title="Go to the {{ theme.name }} theme demo site" class="preview" data-preview="Try the theme demo">
+          <a href="{{ theme.url }}" target="_blank" title="Go to the {{ theme.name }} theme demo site" class="preview" data-preview="View Demo">
             <img src="img/{{ theme.img }}" class="preview__img" alt="Screenshot of the {{ theme.name }} theme homepage"/>
           </a>
 				</article>
